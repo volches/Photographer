@@ -1,5 +1,7 @@
 # Сайт-портфолио фотографа
 
+![opengraph](https://github.com/volches/Photographer/assets/124622075/105552d9-d0d8-4d42-81ec-05fbae7d66ca)
+
 ## О проекте
 
 Выполнена верстка главной страницы сайта.
