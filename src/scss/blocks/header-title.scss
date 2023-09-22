@@ -1,0 +1,41 @@
+.header-title {
+    font-size: 200px;
+    line-height: 1;
+
+    @media (max-width:1799px){
+        font-size: 180px;
+    }
+
+
+    @media (max-width:1399px){
+        font-size: 170px;
+    }
+
+    @media (max-width:799px){
+        font-size: 150px;
+    }
+
+    @media (max-width:699px){
+        font-size: 130px;
+    }
+
+    @media (max-width:599px){
+        font-size: 120px;
+    }
+
+    @media (max-width:499px){
+        font-size: 25vw;
+    }
+    
+}
+
+.header-title__letter {
+    font-family: 'Morganite';
+    font-weight: 400;
+    opacity: 0;
+    margin-right: 23px;
+
+    @media (max-width:699px){
+        margin-right: 10px;
+    }
+}

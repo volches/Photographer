@@ -1,0 +1,18 @@
+// fonts
+$font-main:'Morganite';
+$font-accent: 'Stantic';
+
+// Colors
+$color-header:#f4efec;
+$color-text: #cdc6c3;
+$white-color:#e4e0dd;
+$grey-color:rgb(53, 53, 53);
+$black-color:#000;
+
+
+
+:root {
+    --index: calc(1vw + 1vh);
+    --gallery-gap: calc(var(--index)*10);
+    --height: calc((100vh - 140px)/3)px;
+}

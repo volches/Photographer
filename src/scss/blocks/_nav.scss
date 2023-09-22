@@ -1,0 +1,62 @@
+
+.nav-header, .nav-footer {
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 40px;
+    padding-right: 40px;
+
+    ul {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+        font-family: 'Morganite';
+        text-transform: uppercase; 
+    }
+
+}
+
+// Header Footer
+
+.header__footer {
+    padding-top: 10px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 7vh;
+    opacity: 0;
+    transition: all 1s;
+    z-index: 5;
+}
+
+
+
+
+.nav-header .nav__item, .nav-footer .nav__item{
+    position: relative;
+    color: $black-color;
+
+    &::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        bottom: -3px;
+        left: 0;
+        transform-origin: right;
+        transform: scaleX(0);
+        transition: transform 0.3s ease-in-out;
+    }
+
+    &:hover::before {
+        transform-origin: left;
+        transform: scaleX(1);
+    }
+}
+
+
+
+

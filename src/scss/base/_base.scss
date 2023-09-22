@@ -1,0 +1,48 @@
+html, body {
+    height: 100%;
+}
+
+html {
+	scroll-behavior: smooth;
+    overflow-x: hidden;
+}
+
+body {
+    // font-family: 'Satisfy', cursive;
+    font-family: $font-main;
+    color: $color-text;
+    font-size: 16px;
+    line-height: 1.4;
+    position: relative;
+    overflow-x: hidden;
+
+    text-rendering: optimizeSpeed;
+    //text-rendering: optimizeLegibility;
+	-webkit-font-smoothing: antialiased;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+
+body > * {
+	flex-shrink: 0; /* sticky footer */
+}
+
+body.noscroll {
+    overflow: hidden;
+}
+
+
+
+
+/* Utility */
+
+.none {
+	display: none !important;
+}
+
+
+
+
+
+

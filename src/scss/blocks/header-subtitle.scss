@@ -1,0 +1,33 @@
+.header-subtitle {
+    position: absolute;
+    bottom: 20px;
+    font-size: 30px;
+    font-family: 'Stantic';
+    font-weight: 600;
+
+    @media (max-width:1399px){
+        font-size: 27px;
+        bottom: 20px;
+    }
+
+    @media (max-width:699px){
+        font-size: 23px;
+        bottom: 40px;
+    }
+
+    @media (max-width:499px){
+        font-size: 20px;
+        bottom: 45px;
+    }
+
+    @media (max-width:399px){
+        font-size: 18px;
+        bottom: 45px;
+    }
+    
+    
+}
+
+.header-subtitle__letter{
+    opacity: 0;
+}

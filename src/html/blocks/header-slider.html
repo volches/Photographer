@@ -1,0 +1,31 @@
+<!-- HEADER IMG-ROW SLIDER -->
+<div class="swiper header-slider">
+    <div class="swiper-wrapper header-slider__wrapper">
+      <!-- IMG-ROW SLIDE 1 -->
+      <div
+        class="swiper-slide header-slider__item header-slider__item--one"
+      >
+        <!-- ROW UP SLIDE 1 -->
+        <div class="header-img-row header-img-row--up">
+          @@loop('./../blocks/elements/header-img-row-element.html', './data/header-img-row.json')
+        </div>
+        <!-- ROW DOWN SLIDE 1 -->
+        <div class="header-img-row header-img-row--down">
+          @@loop('./../blocks/elements/header-img-row-element.html', './data/header-img-row.json')
+        </div>
+      </div>
+      <!-- IMG-ROW SLIDE 2 -->
+      <div
+        class="swiper-slide header-slider__item header-slider__item--two"
+      >
+        <!-- ROW UP SLIDE 2 -->
+        <div class="header-img-row header-img-row--up">
+          @@loop('./../blocks/elements/header-img-row-element.html', './data/header-img-row.json')
+        </div>
+        <!-- ROW DOWN SLIDE 2 -->
+        <div class="header-img-row header-img-row--down">
+          @@loop('./../blocks/elements/header-img-row-element.html', './data/header-img-row.json')
+        </div>
+      </div>
+    </div>
+  </div>
